@@ -1,0 +1,76 @@
+/*
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.4s infinite;
+}
+
+
+
+.container {position:relative;}
+.css-typing {
+    width: 10em;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.x1 {animation: type1 5s steps(50, end);}
+@keyframes type1 {
+    0% {width: 0; opacity:1}
+    99% {width: 10em; opacity:1}
+    100% {opacity:0;}
+}
+.x2 {
+    animation: type2 5s steps(50, end);
+    animation-delay:5s;
+}
+@keyframes type2 {
+    0% {width: 0; opacity:1}
+    99% {width: 10em; opacity:1}
+    100% {opacity:0;}
+}
+.x3 {
+    animation: type3 5s steps(50, end);
+    animation-delay:10s;
+}
+@keyframes type3 {
+    0% {width: 0; opacity:1}
+    99% {width: 10em; opacity:1}
+    100% {opacity:0;}
+}
+
+*/
+
+
+
+
+
+
+
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

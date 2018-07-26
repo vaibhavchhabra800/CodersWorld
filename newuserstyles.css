@@ -1,0 +1,54 @@
+#uploads {
+    border-collapse: collapse;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width:100%;
+    max-height:500px;
+}
+
+.tbhovchngcol:hover
+{
+    background-color: #cbf7ff
+}
+
+.tbhovchngcol
+{
+border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.th
+{
+    padding: 8px;
+    text-align: left;
+}
+
+.td
+{
+    padding: 8px;
+    text-align: left;
+}
+#tbchnggreem {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#uploadsdiv
+{
+    overflow-x:auto;
+    -ms-overflow-y:auto;
+    overflow-y:auto;
+    -ms-overflow-x:auto;
+}
+
+.myfilesadminfiles
+{
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold;
+}
+#uploadmiddle
+{
+    text-align:center;
+}
